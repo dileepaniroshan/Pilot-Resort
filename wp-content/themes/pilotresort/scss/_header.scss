@@ -1,0 +1,62 @@
+header{
+    position: absolute;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(to bottom, #000, rgba(255, 0, 0, 0));
+    color: $light;
+    z-index: 1;
+    .container-fluid{
+        .header-menu{
+            div{
+                display: inline-block;
+                padding: 8px 18px;
+               
+            }
+            .menu-icon{
+                   margin: 29px 0;
+                   border-right: 1px solid #fff;
+                   cursor: pointer;
+                &:before{
+                    content: '';
+                    background-image: url(../images/menu-icon.png);
+                    width: 23px;
+                    height: 12px;
+                    display: inline-block;
+                    background-repeat: no-repeat;
+                    margin-right: 10px;
+                }
+                
+            }
+        }
+        .logo{
+            text-align: center;
+            img{
+                padding-top: 75px;
+            }
+        }
+        .contact-menu{
+            text-align: right;
+            ul{
+                padding: 18px 22px;
+                display: inline-block;
+                li{
+                    display: inline-block;
+                    padding: 10px;
+                    a{
+                        color: $light;
+                    }
+        
+            }
+           }
+            a.button{
+                padding: 10px;
+                background: $primary;
+                padding: 29px 26px;
+                margin-right: -15px;
+                color: $light;
+                float: right;
+            }
+        }
+    }
+}

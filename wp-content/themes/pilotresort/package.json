@@ -1,0 +1,13 @@
+{
+  "name": "pilot",
+  "version": "1.0.0",
+  "description": "Acura Test",
+  "author": "Dileepa Niroshan",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}

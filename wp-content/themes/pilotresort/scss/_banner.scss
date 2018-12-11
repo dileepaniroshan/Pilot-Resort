@@ -1,0 +1,82 @@
+.main-banner{
+    background-size: cover;
+    position: relative;
+    .banner-content{
+        bottom: 8%;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+            position: absolute;
+                .banner-header{
+                    font-size: 43px;
+                    text-shadow: 1px 2px 9px #000000;
+                }
+                .scroll-down{
+                    display: inline-block;
+                    cursor: pointer;
+                    color: $light;
+                    i{
+                        background-image: url(../images/down-arrow.png);
+                        width: 15px;
+                        height: 9px;
+                        display: inline-block;
+                        background-repeat: no-repeat;
+                        text-shadow: 1px 2px 9px #000000;
+                    }
+                }
+               
+                .popup-box {
+                    position: fixed;
+                    right: 2%;
+                    width: 271px;
+                    bottom: 8%;
+                    background: #fff;
+                    padding: 16px;
+                    color: $dark;
+                    display: none;
+                    -webkit-box-shadow: 0px 0px 47px -15px rgba(0,0,0,0.75);
+                    -moz-box-shadow: 0px 0px 47px -15px rgba(0,0,0,0.75);
+                    box-shadow: 0px 0px 47px -15px rgba(0,0,0,0.75);
+                    z-index: 1;
+
+                    i{
+                        color: $light;
+                        background: $primary;
+                        font-size: 15px;
+                        position: absolute;
+                        top: -9px;
+                        right: -13px;
+                        text-shadow: none;
+                        border-radius: 55px;
+                        padding: 4px 7px;
+                        cursor: pointer;
+                    }
+                    .upper-caption{
+                        font-size: 11px;
+                        color: $primary;
+                        margin-bottom: 0;
+                        font-weight: 600;
+                    }
+                    h3{
+                        font-weight: 300;
+                        font-size: 25px;
+                    }
+                    desc {
+                        font-size: 14px;
+                    }
+                }
+    
+}
+
+}
+
+//mobile 
+
+@media (max-width: 767px){
+    h1.banner-header br {
+        display: none;
+    }
+    .contact-menu{
+        display: none;
+    }
+}
